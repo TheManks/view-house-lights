@@ -5,7 +5,7 @@ import time
 from matplotlib import animation
 
 
-rate, audio_data = scipy.io.wavfile.read("/home/larry/Downloads/Lube_-_Kombat-alejKZhngvg.wav")
+rate, audio_data = scipy.io.wavfile.read("/home/pi/Development/view-house-lights/are_we/tools/Lube_-_Kombat-alejKZhngvg.wav")
 
 
 audio_data = audio_data[0:88200]

@@ -3,10 +3,8 @@ import numpy as np
 import scipy.io.wavfile
 import time
 import math
-#from matplotlib import animation
 
 
-#rate, audio_data = scipy.io.wavfile.read("/home/pi/Development/view-house-lights/are_we/tools/Lube_-_Kombat-alejKZhngvg.wav")
 def parse():
     rate, audio_data = scipy.io.wavfile.read("/home/pi/Development/view-house-lights/are_we/tools/lowered.wav")
     tt = audio_data.shape[0] / rate
@@ -42,8 +40,5 @@ def parse():
     return output
 
 
-#output = parse()
-#print(output)
-#time = np.arange(0, float(audio_data.shape[0]), 1)/rate
 
 
